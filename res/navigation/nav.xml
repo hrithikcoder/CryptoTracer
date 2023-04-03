@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/homefragment">
+
+    <fragment
+        android:id="@+id/homefragment"
+        android:name="com.example.crptotracker.Fragments.homefragment"
+        android:label="fragment_homefragment"
+        tools:layout="@layout/fragment_homefragment" />
+    <fragment
+        android:id="@+id/marketfragment"
+        android:name="com.example.crptotracker.Fragments.marketfragment"
+        android:label="fragment_marketfragment"
+        tools:layout="@layout/fragment_marketfragment" />
+    <fragment
+        android:id="@+id/wishlistfragment"
+        android:name="com.example.crptotracker.Fragments.wishlistfragment"
+        android:label="fragment_wishlistfragment"
+        tools:layout="@layout/fragment_wishlistfragment" />
+</navigation>

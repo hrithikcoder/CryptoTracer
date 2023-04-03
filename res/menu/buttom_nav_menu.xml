@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/homefragment"
+        android:enabled="true"
+        android:icon="@drawable/room"
+        android:title="Home"
+        app:showAsAction="always"/>
+    <item android:id="@+id/marketfragment"
+        android:enabled="true"
+        android:icon="@drawable/stats"
+        android:title="Market"
+        app:showAsAction="always"/>
+    <item android:id="@+id/wishlistfragment"
+        android:enabled="true"
+        android:icon="@drawable/apps"
+        android:title="Wishlist"
+        app:showAsAction="always"/>
+
+</menu>
